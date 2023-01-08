@@ -1,4 +1,3 @@
-# (Still being written)
 # OpenMMS-T4G
 ![alt text](https://github.com/TEPGomes/OpenMMS-T4G/blob/df8c1e62fc22bc2640ab8e6385d9d2ce8b8dda7e/Images/mini-logo-150px_1.png)
 ## Project description and background
@@ -13,8 +12,8 @@ In its current form, OpenMMS-T4G includes a software for connection with one or 
 ## Libraries and prerequisites
 This section lists what is needed to run the full software and firmware for an Arduino-based data acquisition module:
 ### Hardware:
-- Windows 10 OS - Software has been developed and tested in, and to work in, a Windows 10 operating system;
-- Arduino Mega board;
+- Generic computer with Windows 10 OS - Software has been developed and tested in, and to work in, a Windows 10 operating system;
+- Arduino Mega 2560 board;
 - Custom circuitry to receive sensor data in the Arduino;
 ### Python libraries:
 - [PyQt5](https://pypi.org/project/PyQt5/);
@@ -28,8 +27,12 @@ This section lists what is needed to run the full software and firmware for an A
 - [time](https://docs.python.org/3/library/time.html);
 - [queue](https://docs.python.org/3/library/queue.html);
 - [functools](https://docs.python.org/3/library/functools.html);
-### Arduino libraries:
-- 
+### Arduino libraries/ .h-files:
+- stdio;
+- [Wire](https://www.arduino.cc/reference/en/language/functions/communication/wire/);
+- Adafruit_I2CDevice - From [Adafruit_BusIO library](https://github.com/adafruit/Adafruit_BusIO);
+- Adafruit_I2CRegister - From [Adafruit_BusIO library](https://github.com/adafruit/Adafruit_BusIO);
+- Adafruit_MCP9600 - Install library from Arduino IDE library manager as shown [here](https://learn.adafruit.com/adafruit-mcp9600-i2c-thermocouple-amplifier/arduino);
 ## How to use
 It is our intention to publish a scientific paper detailling the system, how it works, and its current performance. Once we succeed, a link to it will be made available here. Otherwise, further details will be shared here eitherway.
 ## Current state of development
