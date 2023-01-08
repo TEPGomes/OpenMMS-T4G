@@ -1,10 +1,11 @@
 # (Still being written)
 # OpenMMS-T4G
+![alt text](https://github.com/TEPGomes/OpenMMS-T4G/blob/df8c1e62fc22bc2640ab8e6385d9d2ce8b8dda7e/Images/mini-logo-150px_1.png)
 ## Project description and background
 OpenMMS-T4G is a project developed in the scope of [TOOLING4G - Advanced Tools for Smart Manufacturing](https://tooling4g.toolingportugal.com/), with the following main objectives:
 - Creating an open-source-based hardware and software monitoring system to acquire data from various sensors and types of sensor, installed in/on an injection molding tool (the mold);
 - Provide a lower cost system, when compared to the conventional ones, that allows the simple collection of data from sensors in the mold;
-- Allow visualization of the data during the process;
+- Allow visualization of data during the process;
 
 Through this or similar systems, smaller companies and entities from the research and education fields, can be empowered to implement Industry 4.0 concepts in the injection molding process, on lower budgets. This includes development of fault prediction algorithms for planned maintenance, part quality prediction algorithms, process optimization, among other possibilities.
 
@@ -30,5 +31,6 @@ This section lists what is needed to run the full software and firmware for an A
 ### Arduino libraries:
 - 
 ## How to use
+It is our intention to publish a scientific paper detailling the system, how it works, and its current performance. Once we succeed, a link to it will be made available here. Otherwise, further details will be shared here eitherway.
 ## Current state of development
 In its current state of development, there are still known bugs that need to be sorted. Despite this, a monitoring system based on the project's software and firmware has been tested to monitor sensors installed in and on injection molds during processing, and data has been successfully acquired from the sensors.
